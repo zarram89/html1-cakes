@@ -4,17 +4,155 @@
 <head>
   <meta charset="utf-8">
   <title>Cakes | Главная</title>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body class="body">
-  <header class="main-header">
-
+<body class="page">
+  <header class="page-header">
+    <nav class="main-header-nav">
+      <a class="main-logo">
+        <img class="logo" width="68" height="20" src="./images/logo.svg" alt="Логопит Cakes">
+      </a>
+      <ul class=" site-navigation">
+        <li class="site-navigation-item">
+          <a href="#">Наши торты</a>
+        </li>
+        <li class="site-navigation-item site-navigation-item">
+          <a href="#">Индивидуальный заказ</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Отзывы</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">О нас</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Как заказать</a>
+        </li>
+        <li class="site-navigation-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <a class="phone" href="tel:+79068999296">+7 906 899 92 96</a>
+    </nav>
   </header>
   <main class="container">
 
-  </main>
-  <footer class="main-footer">
+    <section class="promo">
+      <h1 class="promo-title">Торты на заказ</h1>
+      <p clas="promo-lead">Ручная работа</p>
+      <img class="promo-img" width="759" height="918" src="./images/promo-cake-photo.png" alt="Торт с ягодами">
+      <a class="promo-button button" href="#">Выбрать торт</a>
+      <ul class="promo-list">
+        <li class="promo-item promo-item-nature">
+          Натуральные ингредиенты
+        </li>]
+        <li class="promo-item promo-item-delivery">
+          Доставка бесплатно при заказе от 2000 рублей*
+        </li>
+      </ul>
+    </section>
 
+    <section class="examples">
+      <h2 class="examples-titles">Наши торты</h2>
+      <ul class="examples-cards">
+        <li class="examples-card examples-card-big">
+          <h3 class="examples-subtitle">Классические</h3>
+          <p class="examples-count">24 вида</p>
+          <img class="example-img" width="696" height="653" src="./images/photo-1.jpg" alt="Классический торт">
+          <a class="examples-link" href="#">Смотреть</a>
+        </li>
+        <li class="examples-card">
+          <h3 class="examples-subtitle">Муссовые</h3>
+          <p class="examples-count">12 вида</p>
+          <img class="example-img" width="484" height="305" src="./images/photo-2.jpg" alt="Мусовый торт">
+          <a class="examples-link" href="#">Смотреть</a>
+        </li>
+        <li class="examples-card">
+          <h3 class=" examples-subtitle">Свадебные</h3>
+          <p class="examples-count">24 вида</p>
+          <img class="example-img" width="484" height="305" src="./images/photo-3.jpg" alt="Свадебный торт">
+          <a class="examples-link" href="#">Смотреть</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="reviews">
+      <h2 class="reviews-title">Отзывы</h2>
+      <div class="reviews-item">
+        <cite class="reviews-cite">Мария</cite>
+        <p class="reviews-info">юрист, 33 года</p>
+        <img class="reviews-avatar" width="210" height="210" src="./images/avatar.jpg" alt="Фотография Марии">
+        <blockquote class="reviews-quote">Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку! Теперь будем заказывать торты только у вас для наших семейных праздников:)</blockquote>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <h2 class="advantages-title">Наши преимущества</h2>
+      <p class="advantages-lead">Почему нас выбирают?</p>
+      <ul class="advantages-list">
+        <li class="advantages-item advantages-item-nature">
+          <h3 class="advantages-subtitle">Без искусственных добавок</h3>
+          <p class="advantages-description">Работаем с натуральными ингредиентами и свежими продуктами</p>
+        </li>
+        <li class="advantages-item nature">
+          <h3 class="advantages-subtitle">Свежий торт в день торжества</h3>
+          <p class="advantages-description">Торты изготавливаются в течение суток до отправки</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contacts">
+      <h2 class="contacts-title">Контакты</h2>
+      <ul class="contacts-list">
+        <li class="contacts-item">
+          <h3 class="contacts-subtitle">Телефон:</h3>
+          <a class="contacts-phone phone" href="tel:+7 906 899 92 96">+7 906 899 92 96</a>
+        </li>
+        <li class="contacts-item">
+          <h3 class="contacts-subtitle">Адрес:</h3>
+          <a class="contacts-phone phone" href="tel:+7 906 899 92 96">+7 906 899 92 96</a>
+          <address class="contacts-address">г. Москва , ул. Мясницкая, 13, стр. 18</address>
+        </li>
+        <li class="contacts-item">
+          <h3 class="contacts-subtitle">Мы в соц. сетях:</h3>
+          <ul class="contacts-social-list">
+            <li class="contacts-social-item contacts-social-item-instagram">
+              <a href="#"><span class="visually-hidden">Instagram</span></a>
+            </li>
+            <li class="contacts-social-item contacts-social-item-vk">
+              <a href="#"><span class="visually-hidden">VK</span></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <img class="contacts-map" width="696" height="450" src="./images/map.png" alt="Картса с магазином Cakes">
+    </section>
+
+  </main>
+  <footer class="page-footer">
+    <a class="page-footer-logo" href="./images/logo.svg"></a>
+    <ul class="page-footer-nav">
+      <li class="footer-navigation-item">
+        <a href="#">Наши торты</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="#">Индивидуальный заказ</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="#">Отзывы</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="#">О нас</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="#">Как заказать</a>
+      </li>
+      <li class="footer-navigation-item">
+        <a href="#">Контакты</a>
+      </li>
+    </ul>
+    <p class="copyright"></p>
   </footer>
 </body>
 
